@@ -19,6 +19,7 @@ def getDay(a, b, v):
     return;
 
 def getDay_v2(a, b, v):
+    # 수학이 필요한 순간
     import math
 
     return math.ceil((v - a) / (a - b)) + 1
